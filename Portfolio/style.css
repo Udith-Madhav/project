@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+/* navigation bar */
+
+navbar{
+    background-color: white;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* main section */
+
+.main{
+    background-image: url(img/bookgoal.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+.main h3{
+    font-size: 3.4rem;
+    font-weight: 600;   
+}
+
+.main h6{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(233,20,109);
+    width: 17%;
+}
+
+.main .bt1{
+    height: 45px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.main .bt2{
+    height: 45px;
+    width: 110px;
+    background-color:transparent;
+    color:  rgb(233,20,109);
+    outline: none;
+    border: 1 px solid  rgb(233,20,109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color:   rgb(233,20,109);
+    transition: 0.5s;
+    color: white;
+}
+
+/* icons */
+
+.mine{
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 100px;
+    /* text-align: center; */
+    margin: 30px;
+    line-height: 100px;
+    box-shadow: 1p 4px 2px 2px #dcdde1;
+    /* display: flex; */
+    /* display: inline; */
+    
+}
+.mine i{
+    transition: all 0.3s linear;
+}
+i:hover{
+    transform: scale(2.4);
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-linkedin{
+    color: #0097e6;
+}
+.fa-github{
+    color: #e84118;
+}
+
+/* about */
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.btn1{
+    height: 40px;
+    width:145px;
+    outline: none;
+    border: none;background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.my{
+    background-color: rgb(91, 91, 180);
+    color: white;
+     border: 2px solid black;
+     width: 100px;
+      border-radius: 6px;
+      font-weight: 500;
+}
+.my:hover{
+    background-color: blue;
+}
